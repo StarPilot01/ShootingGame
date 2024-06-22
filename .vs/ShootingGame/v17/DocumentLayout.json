@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chan\\source\\repos\\ShootingGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55C3D0F2-6DE2-4963-882B-9D3FA9B2F4F5}|ShootingGame\\ShootingGame.vcxproj|C:\\Users\\Chan\\source\\repos\\ShootingGame\\src\\Character\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55C3D0F2-6DE2-4963-882B-9D3FA9B2F4F5}|ShootingGame\\ShootingGame.vcxproj|solutionrelative:src\\Character\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C3D0F2-6DE2-4963-882B-9D3FA9B2F4F5}|ShootingGame\\ShootingGame.vcxproj|C:\\Users\\Chan\\source\\repos\\ShootingGame\\src\\Game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55C3D0F2-6DE2-4963-882B-9D3FA9B2F4F5}|ShootingGame\\ShootingGame.vcxproj|solutionrelative:src\\Game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "C:\\Users\\Chan\\source\\repos\\ShootingGame\\src\\Character\\Character.cpp",
+              "RelativeDocumentMoniker": "src\\Character\\Character.cpp",
+              "ToolTip": "C:\\Users\\Chan\\source\\repos\\ShootingGame\\src\\Character\\Character.cpp",
+              "RelativeToolTip": "src\\Character\\Character.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-22T14:04:47.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Chan\\source\\repos\\ShootingGame\\src\\Game\\main.cpp",
+              "RelativeDocumentMoniker": "src\\Game\\main.cpp",
+              "ToolTip": "C:\\Users\\Chan\\source\\repos\\ShootingGame\\src\\Game\\main.cpp",
+              "RelativeToolTip": "src\\Game\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-22T14:04:33.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

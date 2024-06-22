@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Character">
+      <UniqueIdentifier>{58043e3e-eee3-44e4-adf0-1d5ca04769f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Enemy">
+      <UniqueIdentifier>{1dd9f612-0f1d-4f56-8a0b-1f09d06db0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Player">
+      <UniqueIdentifier>{30b3cb31-87b3-4098-ba82-4da3be518351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{01f50934-f484-401f-8f8b-aa5a802f542b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{af40c99b-9ad6-4351-9ffb-474a1b891b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{ed36b06a-6156-4634-a683-ea1aee7c5d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{fca7f427-2804-4278-a38a-eab702067ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{04ad703f-ef72-48ef-95fc-127025ed23e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Character\Character.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Character\Player\Player.h">
+      <Filter>Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Character\Enemy\DoubleShootEnemy.h">
+      <Filter>Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Character\Enemy\Enemy.h">
+      <Filter>Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Character\Enemy\FastShootEnemy.h">
+      <Filter>Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Character\Enemy\LaserEnemy.h">
+      <Filter>Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Character\Enemy\NormalEnemy.h">
+      <Filter>Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Effect\Effect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Game\Flag.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Game\Macro.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Manager\EnemyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Manager\GameManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Manager\IManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Manager\InputManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Manager\ObjManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Manager\PrintManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Manager\StageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Manager\BulletManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Manager\EffectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Object\Bullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Object\Laser.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Object\Obj.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Utils\Delegate.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Utils\Timer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Character\Character.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Character\Player\Player.cpp">
+      <Filter>Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Character\Enemy\DoubleShootEnemy.cpp">
+      <Filter>Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Character\Enemy\Enemy.cpp">
+      <Filter>Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Character\Enemy\FastShootEnemy.cpp">
+      <Filter>Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Character\Enemy\LaserEnemy.cpp">
+      <Filter>Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Character\Enemy\NormalEnemy.cpp">
+      <Filter>Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Effect\Effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Manager\PrintManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Manager\StageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Manager\BulletManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Manager\EffectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Manager\EnemyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Manager\GameManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Manager\InputManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Manager\ObjManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Object\Obj.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Object\Bullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Object\Laser.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utils\Timer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utils\Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
